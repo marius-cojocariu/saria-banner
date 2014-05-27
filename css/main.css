@@ -1,0 +1,76 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+body {
+    font-family: 'Open Sans', sans-serif;
+    overflow:hidden;
+}
+
+
+.purchase-bar {
+    background-color: #000;
+    overflow: auto;
+    padding: 10px;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #fff;
+    outline: none;
+}
+
+.close-button,
+.purchase {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 22px;
+    font-weight: normal;
+}
+
+.close-button {
+    border: 1px solid #262626;
+    padding: 4px 0 4px 25px;
+    width: 110px;
+    background: url("../img/saria-close.png") no-repeat 5px 15px;
+    float: left;
+}
+
+.close-button:hover {
+    background-color: #171717;
+}
+
+.purchase {
+    background: #00c0ff url("../img/saria-purchase.png") no-repeat 255px 11px;
+    padding: 4px 60px 4px 8px;
+    float: right;
+    border: 1px solid #00c0ff;
+}
+
+.purchase:hover {
+    background-color: #00ace4;
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+    .close-button {
+        margin-bottom: 15px;
+    }
+}
+
+#previewframe {
+    width:100%;
+    margin:0;
+    padding:0;
+}
+
+
+
+
+
+
+
+
+
+
